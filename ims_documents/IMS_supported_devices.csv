@@ -1,0 +1,54 @@
+﻿Polling Engine,Port (From the server),Protocol
+3DP e200 Hornet (server-side),TCP 22,SSH
+3DP e200 Hornet (client-side),"UDP 13339 in, UDP 13338 out",Custom UDP
+AVI 9/8/3 series modems/routers,TCP 22,SSH
+AVI CCMS,UDP 3337,Custom UDP
+Aviat radio,UDP 161,SNMP
+Axis Q-series camera,TCP 80/443,HTTP/S
+Cambium PMP4xx microwave radio,TCP 80/443,HTTP/S
+Cambium PTP6xx microwave radio,TCP 80/443,HTTP/S
+Cambium PTP8xx microwave radio,UDP 161,SNMP
+Cambium ePMP microwave radi,TCP 22,SSH
+Cisco Wireless LAN Controller,TCP 22,SSH
+Cisco switch,UDP 161,SNMP
+"Cisco wireless access point (nothing, data comes from WLC)",N/A,N/A
+Cisco workgroup bridge (WGB),UDP 161,SNMP
+ESXi host,UDP 161,SNMP
+Exalt microwave radio,UDP 161,SNMP
+Extreme AP71xx access point,TCP 22,SSH
+Extreme AP75xx access point,TCP 22,SSH
+Extreme RFS Controller,TCP 22,SSH
+Fluidmesh 4200 microwave radio,TCP 22,SSH
+FTP TracBox (server-side),TCP 80,HTTP/S
+Generic SNMP / TFTP polling engine,"UDP 161, TCP 69","SNMP, TFTP"
+Huawei AR-series router,UDP 161,SNMP
+Hyper-V Host,UDP 161,SNMP
+Komatsu FrontRunner via CCMS,UDP 3338,Custom UDP
+Linux System,TCP 22,SSH
+MTGA Thumb GPS (server-side),TCP 80,HTTP
+Mikrotik RB-series microwave radio,UDP 161,SNMP
+MineStar Fleet or Command FMS server,TCP 8080,HTTP
+MineStar Terrain FMS server,TCP 1433,ODBC
+MineStar TOPE NAM receiver,UDP 13337,Custom UDP
+Motorola IAP access point,UDP 161,SNMP
+Modular Dispatch 5/6,TCP 1433,ODBC
+Modular ProVision 3.x,TCP 1433,ODBC
+Moxa/Trimble GPS,TCP 4001,MODBUS over TCP/IP
+Moxa N-port version information,TCP 23,Telnet
+OpenWrt wireless router (server-side),TCP 22,SSH
+OpenWrt wireless router (client-side),"UDP 13339 in, UDP 13338 out",Custom UDP
+"Other (nothing, ping-only polling)",ICMP,ICMP
+RAD Airmux microwave radio,"TCP 22, TCP 80/443","SSH, HTTP/S"
+Radwin 2xxx microwave radio,UDP 161,SNMP
+Redline 3xxx microwave radio,UDP 161,SNMP
+Redline 5xxx microwave radio,UDP 161,SNMP
+SAF microwave radio,UDP 161,SNMP
+Siklu Etherhaul microwave radio,TCP 80/443,HTTP/S
+Sony IPELA camera,TCP 80,HTTP
+Strix microwave radio,UDP 161,SNMP
+TriStar MPPT,TCP 80,HTTP
+Ubiquiti AirOS microwave radio,TCP 22,SSH
+Ubiquiti microwave radio with FTP Firmware,TCP 80/443,HTTP/S
+Wenco FMS server,TCP 1433,ODBC
+Windows servers,TCP 135 + random,WMI
+Windows systems,TCP 135 + random,WMI 
