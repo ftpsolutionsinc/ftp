@@ -33,275 +33,310 @@
   <link href="css/theme_test.css" rel="stylesheet">
   <link href="css/animate.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .mview {
+      overflow-x: hidden;
+    }
+  </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" class="layout-boxed-no" style="overflow-y:hidden;">
-  <!-- "layout-boxed" class for boxed layout "layout-boxed-no" class for full size wrapper -->
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXHFVHM" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+  <div class="mview">
+    <!-- "layout-boxed" class for boxed layout "layout-boxed-no" class for full size wrapper -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXHFVHM" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Preloader -->
-  <div id="preloader">
-    <div id="status">&nbsp;</div>
-  </div>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The Navbar testing changes for bitbucket < delete later!
 ****************************************************** -->
 
-  <!-- Navbar Section -->
-  <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="1" data-offset-bottom="1">
-    <div class="container">
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="1" data-offset-bottom="1">
+      <div class="container">
 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="#start"><img src="img/ftp_logo_colour.svg" style="height:58px;" data-wow-delay="0.75s"
-            class="logo-nav-left"></a>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-left">
-          <!--<li class="active"><a href="#start">FTP</a></li>-->
-          <li><a href="#software">Software</a></li>
-          <li><a href="#hardware">Hardware</a></li>
-          <!--
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#start"><img src="img/ftp_logo_colour.svg" style="height:58px;" data-wow-delay="0.75s"
+              class="logo-nav-left"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <!--<li class="active"><a href="#start">FTP</a></li>-->
+            <li><a href="#software">Software</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <!--
           <li><a href="#on_site_services">On-Site Services</a></li>
           <li><a href="#remoteoperations">Remote Operations</a></li>-->
-          <li class="dropdown">
-            <a href="#2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">Professional Services<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="project-services.html">Project Services</a></li>
-              <li><a href="OSS.html">On-Site Services</a></li>
-              <li><a href="otsc.html">Remote Operations</a></li>
-              <li><a href="IOSM.html">Integrated Operations Support Model </a></li>
-            </ul>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">More <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="about.html">About</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="careers.html">Careers</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="privacy.html">Privacy Policy</a></li>
-              <li><a href="experiment.html">Test</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+            <li class="dropdown">
+              <a href="#2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Professional Services<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="project-services.html">Project Services</a></li>
+                <li><a href="OSS.html">On-Site Services</a></li>
+                <li><a href="otsc.html">Remote Operations</a></li>
+                <li><a href="IOSM.html">Integrated Operations Support Model </a></li>
+              </ul>
+            </li>
+            <li><a href="case-study.html">Case Studies</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">More <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The Hero test hhidugladgba
 ****************************************************** -->
-  <div class="wrapper wrapper-darker wrapper-xl wow fadeIn" style="padding-top: 12em" id="start">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center wrapper-xs push-navbar-height-top1">
-          <h2>FTP Solutions</h2>
-          <p class="lead">Leaders in operational support.<br />End-to-End support models with unique scalable solutions
-            with expert level technical resources.</p>
+    <div class="wrapper wrapper-darker wrapper-xl wow fadeIn" style="padding-top: 12em" id="start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center wrapper-xs push-navbar-height-top1">
+            <h2>FTP Solutions</h2>
+            <p class="lead">Leaders in operational support.<br />End-to-End support models with unique scalable
+              solutions
+              with expert level technical resources.</p>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
         </div>
       </div>
     </div>
-    <div class="scroll-downs">
-      <div class="mousey">
-        <div class="scroller"></div>
-      </div>
-    </div>
-  </div>
 
 
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The Software Content Wrapper
 ****************************************************** -->
-  <div class="wrapper wrapper-default wrapper-md text-center wow fadeIn" id="software">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center wrapper-xs wrapper-no-padding-top ">
-          <img src="img/115989.png" data-wow-delay="0.75s" style="width:200px;height:200px;" class="text-center" />
-          <h3>Integrated Management System</h3>
-          <p class="lead"></br>Visualise and optimise your IP and sensor networks with IMS.</p>
-          <p class="lead">A unique single-pane-of-glass platform to collate, manage and view real-time data.</p>
-          <p class="lead">A rich, geo based UI provides an unique user experience and view of your operation that is
-            unparalleled.</p>
-          <p><a href="ims.html" class="btn btn-primary navbar-btn">Learn more </a></p>
+    <div class="wrapper wrapper-default wrapper-md text-center wow fadeIn" id="software">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center wrapper-xs wrapper-no-padding-top ">
+            <img src="img/115989.png" data-wow-delay="0.75s" style="width:200px;height:200px;" class="text-center" />
+            <h3>Integrated Management System</h3>
+            <p class="lead"></br>Visualise and optimise your IP and sensor networks with IMS.</p>
+            <p class="lead">A unique single-pane-of-glass platform to collate, manage and view real-time data.</p>
+            <p class="lead">A rich, geo based UI provides an unique user experience and view of your operation that is
+              unparalleled.</p>
+            <p><a href="ims.html" class="btn btn-primary navbar-btn">Learn more </a></p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn ">
-          <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-          <i class="fas fa-desktop fa-4x text-muted"></i>
-          <h5>Cross Platform</h5>
-          <p>IMS is a native HTML5 application, requiring only a web browser to access it. This means that it's simple
-            to deploy in a corporate environment on everything from Windows to MAC OS to Linux, including tablets and
-            mobiles.
-          </p>
-        </div>
+        <div class="row">
+          <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn ">
+            <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
+            <i class="fas fa-desktop fa-4x text-muted"></i>
+            <h5>Cross Platform</h5>
+            <p>IMS is a native HTML5 application, requiring only a web browser to access it. This means that it's simple
+              to deploy in a corporate environment on everything from Windows to MAC OS to Linux, including tablets and
+              mobiles.
+            </p>
+          </div>
 
-        <div class="col-md-4-1 wrapper-sm1 wrapper-lighter wow fadeIn " data-wow-delay="0.25s">
-          <i class="far fa-save fa-4x text-muted"></i>
-          <h5>Historical Data</h5>
-          <p style="padding-bottom: 12px">Drag the time slider back and forth to see all your assets go backward and
-            forward in time. Use it to visualise relationships and network connections as they happened, or use
-            customisable dashboards to view historical performance.
-          </p>
-        </div>
+          <div class="col-md-4-1 wrapper-sm1 wrapper-lighter wow fadeIn " data-wow-delay="0.25s">
+            <i class="far fa-save fa-4x text-muted"></i>
+            <h5>Historical Data</h5>
+            <p style="padding-bottom: 12px">Drag the time slider back and forth to see all your assets go backward and
+              forward in time. Use it to visualise relationships and network connections as they happened, or use
+              customisable dashboards to view historical performance.
+            </p>
+          </div>
 
-        <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay=".5s">
-          <i class="fas fa-wifi fa-4x text-muted"></i>
-          <h5>Network</h5>
-          <p>View network topology and status of your 802.11, LTE or low powered mesh, like LoRa, Xbee or Zigbee
-            (802.15.4). IMS gives technical users the power to manage and understand the entire network, through the
-            single-pane-of-glass.
-          </p>
+          <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay=".5s">
+            <i class="fas fa-wifi fa-4x text-muted"></i>
+            <h5>Network</h5>
+            <p>View network topology and status of your 802.11, LTE or low powered mesh, like LoRa, Xbee or Zigbee
+              (802.15.4). IMS gives technical users the power to manage and understand the entire network, through the
+              single-pane-of-glass.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4-1 wrapper-sm1 wrapper-lighter wow fadeIn " data-wow-delay=".5s">
-          <i class="fas fa-broadcast-tower fa-4x text-muted"></i>
-          <h5>Infrastructure</h5>
-          <p>View the status of your site’s supporting infrastructure. Store images, view battery states, solar panel
-            health, and run times. Control on/off states of remote devices.
-          </p>
-        </div>
+        <div class="row">
+          <div class="col-md-4-1 wrapper-sm1 wrapper-lighter wow fadeIn " data-wow-delay=".5s">
+            <i class="fas fa-broadcast-tower fa-4x text-muted"></i>
+            <h5>Infrastructure</h5>
+            <p>View the status of your site’s supporting infrastructure. Store images, view battery states, solar panel
+              health, and run times. Control on/off states of remote devices.
+            </p>
+          </div>
 
-        <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay=".5s">
-          <i class="far fa-bell fa-4x text-muted"></i>
-          <h5>Alerts</h5>
-          <p>Real-time alerts via on-screen pop-ups, emails, or SMS messages. All including the full detail on the event
-            that is occurring, helping to maintain availability and productivity.
-          </p>
-        </div>
+          <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay=".5s">
+            <i class="far fa-bell fa-4x text-muted"></i>
+            <h5>Alerts</h5>
+            <p>Real-time alerts via on-screen pop-ups, emails, or SMS messages. All including the full detail on the
+              event
+              that is occurring, helping to maintain availability and productivity.
+            </p>
+          </div>
 
-        <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn " data-wow-delay=".5s">
-          <i class="far fa-chart-bar fa-4x text-muted"></i>
-          <h5>Custom Dashboards</h5>
-          <p>Customizable reporting dashboards to provide deep insights into historical trends and data. Enable highly
-            accurate root-cause analysis and incident identification allowing for accountable party reconciliation.
-          </p>
+          <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn " data-wow-delay=".5s">
+            <i class="far fa-chart-bar fa-4x text-muted"></i>
+            <h5>Custom Dashboards</h5>
+            <p>Customizable reporting dashboards to provide deep insights into historical trends and data. Enable highly
+              accurate root-cause analysis and incident identification allowing for accountable party reconciliation.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The Hardware Content Wrapper
 ****************************************************** -->
-  <div class="wrapper wrapper-md wrapper-lighter text-center wow fadeIn" id="hardware">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center wrapper-xs wrapper-no-padding-top ">
-          <img src="img/22982.png" data-wow-delay="0.75s" style="width:200px;height:200px;" class="text-center" />
-          <h3>Hardware</h3>
-          <p class="lead"></br>Ruggedised devices to capture critical information.</p>
-          <p><a href="hardware.html" class="btn btn-md btn-primary navbar-btn">Learn more </a></p>
+    <div class="wrapper wrapper-md wrapper-lighter text-center wow fadeIn" id="hardware">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center wrapper-xs wrapper-no-padding-top ">
+            <img src="img/22982.png" data-wow-delay="0.75s" style="width:200px;height:200px;" class="text-center" />
+            <h3>Hardware</h3>
+            <p class="lead"></br>Ruggedised devices to capture critical information.</p>
+            <p><a href="hardware.html" class="btn btn-md btn-primary navbar-btn">Learn more </a></p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 wrapper-sm wrapper-lightest wow fadeIn ">
-          <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-          <i class="fas fa-map-marker-alt fa-4x text-muted"></i>
-          <h5>TracBox</h5>
-          <p>TracBox sends periodic location and status updates to IMS, where you can view asset health in real-time.
-          </p>
-        </div>
+        <div class="row">
+          <div class="col-md-4 wrapper-sm wrapper-lightest wow fadeIn ">
+            <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
+            <i class="fas fa-map-marker-alt fa-4x text-muted"></i>
+            <h5>TracBox</h5>
+            <p>TracBox sends periodic location and status updates to IMS, where you can view asset health in real-time.
+            </p>
+          </div>
 
-        <div class="col-md-4 wrapper-sm wrapper-lighter wow fadeIn " data-wow-delay="0.25s">
-          <i class="fas fa-code-branch fa-4x text-muted"></i>
-          <h5>IoTBox</h5>
-          <p>Gain visibility of the location and sensor data of assets such as; generators, pumps, bores, flow meters
-            and lighting towers all visualised through IMS.
-          </p>
-        </div>
+          <div class="col-md-4 wrapper-sm wrapper-lighter wow fadeIn " data-wow-delay="0.25s">
+            <i class="fas fa-code-branch fa-4x text-muted"></i>
+            <h5>IoTBox</h5>
+            <p>Gain visibility of the location and sensor data of assets such as; generators, pumps, bores, flow meters
+              and lighting towers all visualised through IMS.
+            </p>
+          </div>
 
-        <div class="col-md-4 wrapper-sm wrapper-light wow fadeIn " data-wow-delay=".5s">
-          <i class="fas fa-tachometer-alt fa-4x text-muted"></i>
-          <h5>OBDBox</h5>
-          <p>Reads the OBDII diagnostics messages from vehicles to then display on IMS.
-          </p>
+          <div class="col-md-4 wrapper-sm wrapper-light wow fadeIn " data-wow-delay=".5s">
+            <i class="fas fa-tachometer-alt fa-4x text-muted"></i>
+            <h5>OBDBox</h5>
+            <p>Reads the OBDII diagnostics messages from vehicles to then display on IMS.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The Site Services Content Wrapper
 ****************************************************** -->
-  <div class="wrapper wrapper-default wrapper-md wow fadeIn" id="2">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12 wrapper-xs wrapper-no-padding-top">
-          <h3>Professional Services</h3>
-          <p class="lead"></br>Experienced subject matter experts in mining technology and operations, our team has
-            unique vertical industry knowledge that can assist mining operators with their digital transformation
-            journey.
-          </p>
+    <div class="wrapper wrapper-default wrapper-md wow fadeIn" id="2">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 wrapper-xs wrapper-no-padding-top">
+            <h3>Professional Services</h3>
+            <p class="lead"></br>Experienced subject matter experts in mining technology and operations, our team has
+              unique vertical industry knowledge that can assist mining operators with their digital transformation
+              journey.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-right wow fadeIn" data-wow-delay="0.5s">
-          <a href="project-services.html">
-            <h5>Project Services</h5>
-          </a>
-          <p>With resources that can assist an operator to execute mine technology infrastructure projects, FTP
-            Solutions can assist during the engineering, procurement, construction, and commissioning & startup phases
-            of project execution to ensure successful transition to operations. </p>
-          <hr />
-          <a href="OSS.html">
-            <h5>On-Site Services</h5>
-          </a>
-          <p>Understanding the complex operating requirements within the mining environment, our on-site specialists can
-            provide an array of services to ensure the operations and availability of mine technology infrastructure to
-            maintain productivity and reduce down-time. These resources are familiar with the often harsh environments
-            and can ensure subject matter level expertise to complement the overall operations. </p>
-          <!--
+        <div class="row">
+          <div class="col-md-4 text-right wow fadeIn" data-wow-delay="0.5s">
+            <a href="project-services.html">
+              <h5 style="color: #d2de26;">Project Services</h5>
+            </a>
+            <p>With resources that can assist an operator to execute mine technology infrastructure projects, FTP
+              Solutions can assist during the engineering, procurement, construction, and commissioning & startup phases
+              of project execution to ensure successful transition to operations. </p>
+            <p><a href="project-services.html" class="btn btn-md btn-primary navbar-btn">More</a></p>
+            <hr />
+            <a href="OSS.html">
+              <h5 style="color: #d2de26;">On-Site Services</h5>
+            </a>
+            <p>Understanding the complex operating requirements within the mining environment, our on-site specialists
+              can
+              provide an array of services to ensure the operations and availability of mine technology infrastructure
+              to
+              maintain productivity and reduce down-time. These resources are familiar with the often harsh environments
+              and can ensure subject matter level expertise to complement the overall operations. </p>
+            <p><a href="OSS.html" class="btn btn-md btn-primary navbar-btn">More</a></p>
+            <!--
               <hr/>
               <h5>Labore et dolore</h5>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p> -->
-        </div>
-        <div class="col-md-4">
-          <img src="img/121156.png" alt="Technical Resource" class="img-responsive  wow fadeIn"
-            data-wow-delay="0.75s" />
-        </div>
-        <div class="col-md-4 wow fadeIn" data-wow-delay="1s">
-          <a href="otsc.html">
-            <h5>Remote Operations</h5>
-          </a>
-          <p>FTP Solutions Operations Support Technology Centre (OTSC) is staffed with experienced specialists familiar
-            with mining operations and the underlying infrastructure supporting mining technologies. With direct
-            relationships with the OEMs that provide the fleet for mining operations, escalations with technology
-            support issues can be quickly resolved.
-          </p>
-          <hr />
-          <a href="IOSM.html">
-            <h5>Integrated Operations Support Model</h5>
-          </a>
-          <p>By rotating OTSC resources through on-site shift assignments and project services at different mine sites,
-            FTP Solutions' expertise supporting mining technology applications is built on real-world operating
-            environments that allow our team to develop deeper relationships with key stakeholders operating the mine.
-          </p>
-          <!-- <hr />
+          </div>
+
+          <div class="col-md-4">
+            <br />
+            <br />
+            <br />
+            <br />
+            <img src="img/121156.png" alt="Technical Resource" class="img-responsive  wow fadeIn"
+              data-wow-delay="0.75s" />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div class="col-md-4 wow fadeIn" data-wow-delay="1s">
+            <a href="otsc.html">
+              <h5 style="color: #d2de26;">Remote Operations</h5>
+            </a>
+            <p>FTP Solutions Operations Support Technology Centre (OTSC) is staffed with experienced specialists
+              familiar
+              with mining operations and the underlying infrastructure supporting mining technologies. With direct
+              relationships with the OEMs that provide the fleet for mining operations, escalations with technology
+              support issues can be quickly resolved.
+            </p>
+            <p><a href="otsc.html" class="btn btn-md btn-primary navbar-btn">More</a></p>
+            <hr />
+            <a href="IOSM.html">
+              <h5 style="color: #d2de26;">Integrated Operations Support Model</h5>
+            </a>
+            <p>By rotating OTSC resources through on-site shift assignments and project services at different mine
+              sites,
+              FTP Solutions' expertise supporting mining technology applications is built on real-world operating
+              environments that allow our team to develop deeper relationships with key stakeholders operating the mine.
+            </p>
+            <p><a href="IOSM.html" class="btn btn-md btn-primary navbar-btn">More</a></p>
+            <!-- <hr />
         <h5>Labore et dolore</h5>
         <p>Lorem ipsum dolor sit nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
           voluptua.</p> -->
-        </div>
+          </div>
 
-      </div>
-      <!--
+        </div>
+        <!--
       <div class="row text-center">
         <div class="col-md-12 wrapper-xs wrapper-no-padding-top">
           <p class="lead"></br>
@@ -310,56 +345,56 @@
         </div>
       </div>-->
 
+      </div>
     </div>
-  </div>
 
 
 
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The OTSC Content Wrapper
 ****************************************************** -->
-  <div class="wrapper wrapper-dark wrapper-md text-center wow fadeIn"
-    style="background-image: url(img/chart.svg), url(img/chart.svg); background-size:100%, 120%;" data-wow-delay="0.5s"
-    id="remoteoperations">
-    <div class="overlay overlay-darker"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 wow fadeIn" data-wow-delay="0.5s">
-          <!--    <i class="fa fa-bar-chart colored-primary fa-lg"></i>  -->
-          <img src="img/21702.png" data-wow-delay="0.5s" style="width:350px;height:350px;" class="text-center" />
-          <h3>Operational Technology Support Centre</h3>
-          <p class="lead">We are here to support infrastructure and systems critical to mining operations. <br>
-            Our experts are available 24x7 to remediate and optimize your operational networks.</p>
-          <p><a href="otsc.html" class="btn btn-md btn-primary navbar-btn">Learn more </a></p>
+    <div class="wrapper wrapper-dark wrapper-md text-center wow fadeIn"
+      style="background-image: url(img/chart.svg), url(img/chart.svg); background-size:100%, 120%;"
+      data-wow-delay="0.5s" id="remoteoperations">
+      <div class="overlay overlay-darker"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 wow fadeIn" data-wow-delay="0.5s">
+            <!--    <i class="fa fa-bar-chart colored-primary fa-lg"></i>  -->
+            <img src="img/21702.png" data-wow-delay="0.5s" style="width:350px;height:350px;" class="text-center" />
+            <h3>Operational Technology Support Centre</h3>
+            <p class="lead">We are here to support infrastructure and systems critical to mining operations. <br>
+              Our experts are available 24x7 to remediate and optimize your operational networks.</p>
+            <p><a href="otsc.html" class="btn btn-md btn-primary navbar-btn">Learn more </a></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The Testimonial Wrapper ****************************************************** -->
 
-  <div class="wrapper wrapper-lightest wrapper-sm text-center wow fadeIn">
-    <div class="flex-container">
-      <p style="font-size: 4vw; padding-bottom: 6%">Our valued partners</p>
+    <div class="wrapper wrapper-lightest wrapper-sm text-center wow fadeIn">
+      <div class="flex-container">
+        <p style="font-size: 4vw; padding-bottom: 6%">Our valued partners</p>
+      </div>
+      <div class="flex-container">
+        <div class="container-3-box">
+          <img src="company_logo/Caterpillar-Logo-3D.png" alt="Caterpillar" class="wow fadeIn" data-wow-delay="0.25s" />
+        </div>
+        <div class="container-3-box">
+          <img src="company_logo/komotsu.png" alt="Komatsu" class="wow fadeIn" data-wow-delay="0.5s" />
+        </div>
+        <div class="container-3-box">
+          <img src="company_logo/true_north.png" alt="True North Solutions" class="wow fadeIn" data-wow-delay="0.75s" />
+        </div>
+      </div>
     </div>
-    <div class="flex-container">
-      <div class="container-3-box">
-        <img src="company_logo/Caterpillar-Logo-3D.png" alt="Caterpillar" class="wow fadeIn" data-wow-delay="0.25s" />
-      </div>
-      <div class="container-3-box">
-        <img src="company_logo/komotsu.png" alt="Komatsu" class="wow fadeIn" data-wow-delay="0.5s" />
-      </div>
-      <div class="container-3-box">
-        <img src="company_logo/true_north.png" alt="True North Solutions" class="wow fadeIn" data-wow-delay="0.75s" />
-      </div>
-    </div>
-  </div>
 
 
-  <!--
+    <!--
   <div class="wrapper wrapper-dark wrapper-sm text-center wow fadeIn">
     <div class="flex-container">
       <p style="font-size: 4vw;">We proudly provide services to</p>
@@ -404,136 +439,131 @@
   </div>-->
 
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** The Footer wrapper
 ****************************************************** -->
 
-  <div id="footer" class="wrapper wrapper-xs wrapper-default wow fadeIn">
-    <div class="flex-container">
-      <div id="contact-us" class="overlay-popout" style="padding-top: 74px">
-        <div class="flex-container">
-          <div class="flex-container-vertical">
-            <div style="text-align: right; font-size: 2vw"><i onclick="off('contact-us')" class="fas fa-window-close"
-                aria-hidden="false"></i></div>
-            <div>
-              <legend>
-                <h3 style="color: #d2de26; font-size: 4vw;">Contact Us</h3>
-              </legend>
+    <div id="footer" class="wrapper wrapper-xs wrapper-default wow fadeIn">
+      <div class="flex-container">
+        <div id="contact-us" class="overlay-popout" style="padding-top: 74px">
+          <div class="flex-container">
+            <div class="flex-container-vertical">
+              <div style="text-align: right; font-size: 2vw"><i onclick="off('contact-us')" class="fas fa-window-close"
+                  aria-hidden="false"></i></div>
+              <div>
+                <legend>
+                  <h3 style="color: #d2de26; font-size: 4vw;">Contact Us</h3>
+                </legend>
+              </div>
+              <!-- Text input -->
+              <form action="https://formspree.io/f/mzbkonew" method="POST" encType="multipart/form-data">
+                <!-- Name -->
+                <div class="test-textbox">
+                  <input id="name" type="text" name="name" placeholder="Your name" required="" class="test-textbox">
+                </div>
+
+                <!-- Email -->
+                <div class="test-textbox">
+                  <input id="email" type="email" name="client_email" placeholder="Your email" required=""
+                    class="test-textbox">
+                </div>
+
+                <!-- Phone Number -->
+                <div class="test-textbox">
+                  <input id="phone" type="text" name="phone_number" placeholder="123 456 7890" required=""
+                    class="test-textbox">
+                </div>
+
+                <!-- Textarea (Message) -->
+                <div class="test-textbox" style="border-bottom: 0px">
+                  <textarea class="form-control" id="message" name="message" required=""
+                    class="test-textbox"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="test-btn-box">
+                  <input type="submit" name="submit" value="Submit Form" class="test-btn">
+                </div>
+              </form>
             </div>
-            <!-- Text input -->
-            <form action="https://formspree.io/f/mzbkonew" method="POST" encType="multipart/form-data">
-              <!-- Name -->
-              <div class="test-textbox">
-                <input id="name" type="text" name="name" placeholder="Your name" required="" class="test-textbox">
-              </div>
-
-              <!-- Email -->
-              <div class="test-textbox">
-                <input id="email" type="email" name="client_email" placeholder="Your email" required=""
-                  class="test-textbox">
-              </div>
-
-              <!-- Phone Number -->
-              <div class="test-textbox">
-                <input id="phone" type="text" name="phone_number" placeholder="123 456 7890" required=""
-                  class="test-textbox">
-              </div>
-
-              <!-- Textarea (Message) -->
-              <div class="test-textbox" style="border-bottom: 0px">
-                <textarea class="form-control" id="message" name="message" required="" class="test-textbox"></textarea>
-              </div>
-
-              <!-- File attachments -->
-              <div class="test-textbox" style="text-align: center; border-bottom: 0px; font-size: 1vw;">
-                <input id="file" type="hidden" role="uploadcare-uploader" name="File_Upload" />
-              </div>
-
-
-              <!-- Submit Button -->
-              <div class="test-btn-box">
-                <input type="submit" name="submit" value="Submit Form" class="test-btn">
-              </div>
-            </form>
           </div>
         </div>
-      </div>
-      <div class="container-2-box">
-        <button onclick="on('contact-us')" class="btn btn-md btn-primary navbar-btn">Contact Us</button><br>
-      </div>
-      <div class="container-2-box">
-        <a href="https://www.linkedin.com/company/ftpsolutions/" target="_blank"><i
-            class="fab fa-linkedin-in fa-3x text-muted"></i></a>
+        <div class="container-2-box">
+          <button onclick="on('contact-us')" class="btn btn-md btn-primary navbar-btn">Contact Us</button><br>
+        </div>
+        <div class="container-2-box">
+          <a href="https://www.linkedin.com/company/ftpsolutions/" target="_blank"><i
+              class="fab fa-linkedin-in fa-3x text-muted"></i></a>
+        </div>
       </div>
     </div>
-  </div>
-  <div id="copyright" class="wrapper wrapper-xs wrapper-darker wow fadeIn">
-    <div class="flex-container">
-      <p class="text-muted"><small>© 2021 - FTP Solutions Inc.</small></p>
+    <div id="copyright" class="wrapper wrapper-xs wrapper-darker wow fadeIn">
+      <div class="flex-container">
+        <p class="text-muted"><small>© 2021 - FTP Solutions Inc.</small></p>
+      </div>
     </div>
-  </div>
 
-  <!--******************************************************
+    <!--******************************************************
 ******************** assets and scripts  
 *******************************f*********************** -->
 
-  <!-- All core JavaScript
+    <!-- All core JavaScript
     ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.min.js" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
-  <script src="js/bootstrap.min.js" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
-  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
-  <!-- The slider script - remove if you don´t use it -->
-  <script src="js/smoothscroll.min.js" type="text/javascript"></script>
-  <!-- smoothscrolling script - remove if you don´t use it -->
-  <script src="js/validator.min.js" type="text/javascript"></script>
-  <!-- The script for particle effects - remove if you don´t use it -->
-  <script src="js/wow.min.js" type="text/javascript"></script>
-  <!-- The script for particle effects - remove if you don´t use it -->
-  <script src="js/overlay.js" type="text/javascript"></script>
-  <!-- Overlay for the technical specifications for each item -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script> <!-- A must-have - dont remove it! -->
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <!-- The slider script - remove if you don´t use it -->
+    <script src="js/smoothscroll.min.js" type="text/javascript"></script>
+    <!-- smoothscrolling script - remove if you don´t use it -->
+    <script src="js/validator.min.js" type="text/javascript"></script>
+    <!-- The script for particle effects - remove if you don´t use it -->
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <!-- The script for particle effects - remove if you don´t use it -->
+    <script src="js/overlay.js" type="text/javascript"></script>
+    <!-- Overlay for the technical specifications for each item -->
 
 
 
-  <!-- Init the Owl Carousel slider script - remove this code if it is not in use -->
-  <script type="text/javascript">
-    $('.owl-carousel').owlCarousel({
-      animateOut: 'fadeOut',
-      autoHeight: true,
-      items: 1,
-      loop: true,
-      autoplay: true,
-      autoplaySpeed: 4000,
-      margin: 0,
-      stagePadding: 0,
-      smartSpeed: 1000
-    });
-  </script>
+    <!-- Init the Owl Carousel slider script - remove this code if it is not in use -->
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+        animateOut: 'fadeOut',
+        autoHeight: true,
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        margin: 0,
+        stagePadding: 0,
+        smartSpeed: 1000
+      });
+    </script>
 
-  <!-- Init wow.js for animations -->
-  <script>
-    wow = new WOW({
-      boxClass: 'wow',      // default
-      animateClass: 'animated', // default
-      offset: 100,          // default
-      mobile: false,       // default
-      live: true        // default
-    }
-    )
-    wow.init();
-  </script>
+    <!-- Init wow.js for animations -->
+    <script>
+      wow = new WOW({
+        boxClass: 'wow',      // default
+        animateClass: 'animated', // default
+        offset: 100,          // default
+        mobile: false,       // default
+        live: true        // default
+      }
+      )
+      wow.init();
+    </script>
 
-  <!-- Preloader -->
-  <script type="text/javascript">
-    //<![CDATA[
-    $(window).load(function () { // makes sure the whole site is loaded
-      $('#status').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-      $('body').delay(350).css({ 'overflow': 'visible' });
-    })
+    <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+      $(window).load(function () { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({ 'overflow': 'visible' });
+      })
         //]]>
-  </script>
-
+    </script>
+  </div>
 </body>
 
 </html>

@@ -35,11 +35,57 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <style>
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
         td {
             font-size: 1.4vh;
             padding: 0%;
         }
     </style>
+    <style>
+        table {
+            box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: normal;
+            border: none;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 100%;
+            white-space: nowrap;
+            background-color: white;
+        }
+
+        thead th {
+            color: #ffffff;
+            background: #9bca3c;
+            /* #4FC3A1;*/
+        }
+
+        thead th:nth-child(odd) {
+            color: #ffffff;
+            background: #404040;
+            /*#324960*/
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+    </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" class="layout-boxed-no" style="overflow-y:hidden;">
@@ -225,192 +271,6 @@
         </div>
     </div>
 
-
-    <div class="wrapper wrapper-xs wrapper-md wow fadeIn" id="main">
-        <div class="container">
-            <h2 class="text-center" style="color: #d2de26;">Utility & Features
-            </h2>
-
-            <h3 class=" text-center">Integrated Operating Model
-            </h3>
-
-            &nbsp;
-            <div class="pricing-box-container">
-                <div class="pricing-box text-center">
-                    &nbsp;
-                    <h4>Network Design/ Design Review
-                    </h4>
-                    <ul class="features-list">
-                        <li>Wi-Fi design services</li>
-                        <li>LTE design services Wired/Hosting/Wireless</li>
-                        <li>Technical design review for assurance against operating requirements and specifications
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div class="pricing-box text-center">
-                    &nbsp;
-                    <h4>Business Process Optimisation
-
-                    </h4>
-                    <ul class="features-list">
-                        <li>Added value beyond network performance monitoring</li>
-                        <li>Technology procedures and operations processes</li>
-                        <li>Business intelligence and data analytics capability</li>
-                        <li>Data analysis and operations insight</li>
-                        <li>Reporting and KPI monitoring</li>
-                    </ul>
-                </div>
-
-
-                <div class="pricing-box text-center">
-                    &nbsp;
-                    <h4>On-Site Services
-
-                    </h4>
-                    <ul class="features-list">
-                        <li>Experienced on-site communications Network Technicians</li>
-                        <li>Best practice and industry standards aligned</li>
-                        <li>Technology procedures and operations process</li>
-                        <li>Rotational resource model</li>
-                    </ul>
-                </div>
-
-
-
-
-                <div class="pricing-box text-center">
-                    &nbsp;
-                    <h4>Integrated Management System (IMS)
-
-                    </h4>
-                    <ul class="features-list">
-                        <li>Operational technology (OT) integration</li>
-                        <li>Contextual and situational awareness tool</li>
-                        <li>Data in real [or near real] time</li>
-                        <li>OT data correlation</li>
-                        <li>Event identification and analysis</li>
-                        <li>Fleet performance</li>
-                        <li>Operational technology management</li>
-                        <li>Equipment utilisation and production analysis</li>
-                        <li>Safety and incident investigation</li>
-                        <li>Technology utilisation</li>
-                        <li>Mine planning support</li>
-                        <li>Productivity</li>
-                        <li>Asset management</li>
-                    </ul>
-                </div>
-
-                <div class="pricing-box text-center">
-                    &nbsp;
-                    <h4>Operational Technology Support Centre (OTSC)
-
-
-                    </h4>
-                    <ul class="features-list">
-                        <li>Root Cause Analysis</li>
-                        <li>Detailed technology investigations</li>
-                        <li>Network commissioning</li>
-                        <li>Ongoing network design capacity and performance assurance in line with OEM KPIs</li>
-                        <li>Technology performance monitoring</li>
-                        <li>Network performance analysis</li>
-                        <li>Network design optimization</li>
-                        <li>Best practice and industry standards aligned</li>
-                        <li>Rotational resource model</li>
-                    </ul>
-                </div>
-
-
-            </div>
-
-        </div>
-    </div>
-
-
-
-
-
-
-    <div class="wrapper wrapper-default wrapper-lighter text-center wow fadeIn">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center wrapper-xs wrapper-no-padding-top ">
-                    <!--   <img src="img/115989.png" data-wow-delay="0.75s" style="width:200px;height:200px;"
-                        class="text-center" />-->
-                    <h2 class="text-center" style="color: #d2de26;">Heading
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn ">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <!--  <h5>Heading</h5> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Specifies high level architectural
-                        and enterprise
-                        design
-                        and
-                        operational requirements.
-                    </p>
-                </div>
-
-                <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay="0.25s">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Requires maximum performance and output of complete AHS solution.
-                    </p>
-                </div>
-
-                <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn " data-wow-delay=".5s">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Ensures robust design, alignment to architectural, enterprise and OEM requirements
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay=".5s">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Ensures performance capability and certification ready to support AHS solution.
-                    </p>
-                </div>
-
-                <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn " data-wow-delay=".5s">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Ensures the designed network is operating to the required OEM KPI parameters.
-                    </p>
-                </div>
-
-                <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay=".5s">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Expedited triage, troubleshoot and RCA issues relating to wireless network or AHS Solution.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4-1 wrapper-sm1 wrapper-lightest wow fadeIn " data-wow-delay=".5s">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Specifies site network communications requirements for optimal AHS solution performance.
-                    </p>
-                </div>
-
-                <div class="col-md-4-1 wrapper-sm1 wrapper-light wow fadeIn " data-wow-delay=".5s">
-                    <!--<i class="fa fa-circle-o-notch fa-2x text-muted"><img src="img/124525.png" class="img-responsive"/></i> -->
-                    <p style="padding-top: 55px;  font-size:larger" class='text-center'>
-                        Respond to issues related to the AHS system only.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="wrapper wrapper-md wrapper-md text-center wow fadeIn" id="hardware">
         <div class="container">
             <div class="row">
@@ -421,11 +281,186 @@
         </div>
     </div>
 
-    <div class="wrapper wrapper-md wrapper-light text-center wow fadeIn" id="hardware">
+
+    <div class="wrapper wrapper-sm wrapper-lightest" id="main">
+        <h3 class="text-center" style="color: #d2de26;">Utility & Features
+        </h3>
+
+        <h4 class=" text-center">Integrated Operating Model
+        </h4>
+
+        &nbsp;
+
+        <div id="arrowAnim">
+            <div class="arrowSliding">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay1">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+                <div class="arrow"></div>
+            </div>
+        </div>
+
+        <div class="table-wrapper" style="overflow-x:auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>1. Network Design <br> / Design Review
+                        </th>
+                        <th>2. Integrated Management <br> System (IMS)
+                        </th>
+                        <th>3. Operational Technology <br> Support Centre (OTSC)
+                        </th>
+                        <th>4. On-Site Services
+                        </th>
+                        <th>5. Business Process <br> Optimisation
+                        </th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Wi-Fi design services
+                    </td>
+                    <td>Operational technology <br> (OT) integration
+                    </td>
+                    <td>Root Cause Analysis
+                    </td>
+                    <td>Experienced on-site <br> communications Network <br> Technicians
+                    </td>
+                    <td>Added value beyond <br> network performance monitoring
+                    </td>
+                </tr>
+                <tr>
+                    <td>LTE design services <br> Wired/Hosting/Wireless
+                    </td>
+                    <td>Contextual and situational <br> awareness tool
+                    </td>
+                    <td>Detailed technology <br> investigations
+                    </td>
+                    <td>Best practice and <br> industry standards aligned
+                    </td>
+                    <td>Technology procedures <br> and operations processes
+                    </td>
+                </tr>
+                <tr>
+                    <td>Technical design review <br> for assurance against operating <br> requirements and
+                        specifications
+                    </td>
+                    <td>Data in real [or near real] time
+                    </td>
+                    <td>Network commissioning
+                    </td>
+                    <td>Technology procedures <br> and operations process
+                    </td>
+                    <td>Business intelligence <br> and data analytics capability
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>OT data correlation
+                    </td>
+                    <td>Ongoing network design <br> capacity and performance assurance <br> in line with OEM KPIs
+                    </td>
+                    <td>Rotational resource model
+                    </td>
+                    <td>Data analysis and operations insight
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Event identification <br> sand analysis
+                    </td>
+                    <td>Technology performance monitoring
+                    </td>
+                    <td></td>
+                    <td>Reporting and KPI monitoring
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Fleet performance
+                    </td>
+                    <td>Network performance analysis
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Operational technology management
+                    </td>
+                    <td>Network design optimisation
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Equipment utilisation <br> and production analysis
+                    </td>
+                    <td>Best practice and <br> industry standards aligned
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Safety and incident investigation
+                    </td>
+                    <td>Rotational resource model
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Technology utilisation
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Mine planning support
+
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Productivity
+
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Asset management
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+    <div class="wrapper wrapper-md wrapper-md text-center wow fadeIn" id="hardware">
         <div class="container">
             <div class="row">
 
-                <img src="img/Customer-FTP-OEM.png" data-wow-delay="0.75s" style="width:100%;height:auto;"
+                <img src="img/CUSTFTPOEM.png" data-wow-delay="0.75s" style="width:100%;height:auto;"
                     class="text-center">
 
             </div>
@@ -480,12 +515,6 @@
                                 <textarea class="form-control" id="message" name="message" required=""
                                     class="test-textbox"></textarea>
                             </div>
-
-                            <!-- File attachments -->
-                            <div class="test-textbox" style="text-align: center; border-bottom: 0px; font-size: 1vw;">
-                                <input id="file" type="hidden" role="uploadcare-uploader" name="File_Upload" />
-                            </div>
-
 
                             <!-- Submit Button -->
                             <div class="test-btn-box">

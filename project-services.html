@@ -35,9 +35,54 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <style>
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
         td {
             font-size: 1.4vh;
             padding: 0%;
+        }
+    </style>
+    <style>
+        table {
+            box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: normal;
+            border: none;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 100%;
+            white-space: nowrap;
+            background-color: white;
+        }
+
+        thead th {
+            color: #ffffff;
+            background: #9bca3c;
+            /* #4FC3A1;*/
+        }
+
+        thead th:nth-child(odd) {
+            color: #ffffff;
+            background: #404040;
+            /*#324960*/
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
         }
     </style>
 </head>
@@ -114,8 +159,8 @@
     </div>
 
     <div class="wrapper wrapper-sm wrapper-lightest" id="main">
-        <div class="table-wrapper">
-            <table class="fl-table">
+        <div class="table-wrapper" style="overflow-x:auto;">
+            <table>
                 <thead>
                     <tr>
                         <th>Initial Concept</th>
@@ -124,96 +169,93 @@
                         <th>Field Construction/ <br> Commissioning/ Support</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>Implementation Options (Vendor Neutral)</td>
-                        <td>System Design</td>
-                        <td>Architecture, logical diagrams, IP Maps</td>
-                        <td>Construction Assistance or Management</td>
-                    </tr>
-                    <tr>
-                        <td>Cost Benefit Analysis of Options</td>
-                        <td>Architecture, Logical Diagrams, IP Maps</td>
-                        <td>Full CAD services</td>
-                        <td>Commissioning</td>
+                <tr>
+                    <td>Implementation Options (Vendor Neutral)</td>
+                    <td>System Design</td>
+                    <td>Architecture, logical diagrams, IP Maps</td>
+                    <td>Construction Assistance or Management</td>
+                </tr>
+                <tr>
+                    <td>Cost Benefit Analysis of Options</td>
+                    <td>Architecture, Logical Diagrams, IP Maps</td>
+                    <td>Full CAD services</td>
+                    <td>Commissioning</td>
 
-                    </tr>
-                    <tr>
-                        <td>Feasibility, risks, business case</td>
-                        <td>RF path/coverage planning</td>
-                        <td>Physical/Cyber Security</td>
-                        <td>Site and Customer Acceptance Testing</td>
-                    </tr>
-                    <tr>
-                        <td>Conceptual Plan</td>
-                        <td>Capacity Planning</td>
-                        <td>Regulatory & Licensing</td>
-                        <td>As-builts</td>
+                </tr>
+                <tr>
+                    <td>Feasibility, risks, business case</td>
+                    <td>RF path/coverage planning</td>
+                    <td>Physical/Cyber Security</td>
+                    <td>Site and Customer Acceptance Testing</td>
+                </tr>
+                <tr>
+                    <td>Conceptual Plan</td>
+                    <td>Capacity Planning</td>
+                    <td>Regulatory & Licensing</td>
+                    <td>As-builts</td>
 
-                    </tr>
-                    <tr>
-                        <td>Strategic Planning</td>
-                        <td>Unbiased Technology Assessment</td>
-                        <td>Land planning support</td>
-                        <td>Start-up Assistance</td>
+                </tr>
+                <tr>
+                    <td>Strategic Planning</td>
+                    <td>Unbiased Technology Assessment</td>
+                    <td>Land planning support</td>
+                    <td>Start-up Assistance</td>
 
-                    </tr>
-                    <tr>
-                        <td>Network Architecture</td>
-                        <td>Site Surveys</td>
-                        <td>Interference coordination and resolution</td>
-                        <td>Optimization as required</td>
+                </tr>
+                <tr>
+                    <td>Network Architecture</td>
+                    <td>Site Surveys</td>
+                    <td>Interference coordination and resolution</td>
+                    <td>Optimization as required</td>
 
-                    </tr>
-                    <tr>
-                        <td>Develop Standards, Specifications <br> and Philosophies</td>
-                        <td>Path Surveys</td>
-                        <td>Bird Document Preparation (RFQs, RFPs) <br> & evaluation</td>
-                        <td>Documentation</td>
+                </tr>
+                <tr>
+                    <td>Develop Standards, Specifications <br> and Philosophies</td>
+                    <td>Path Surveys</td>
+                    <td>Bird Document Preparation (RFQs, RFPs) <br> & evaluation</td>
+                    <td>Documentation</td>
 
-                    </tr>
-                    <tr>
-                        <td>All-inclusive project cost estimates for AFE <br> (includes 3rd parties, etc.)</td>
-                        <td>Infrastructure Audits</td>
-                        <td>Scope of word documents for 3rd parties <br> & associated technical management</td>
-                        <td>Ongoing Support and Maintenance</td>
-                    </tr>
-                    <tr>
-                        <td>Maintenance Plans</td>
-                        <td>Security Audits</td>
-                        <td>Configuration</td>
-                        <td>Unique network management system <br> offerings and deployments for optimized <br>
-                            maintenance
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Participate in HAZOP/LOPA</td>
-                        <td>Cutover Plan</td>
-                        <td>Training</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Project Management Services</td>
-                        <td>Factory Acceptance Test</td>
-                        <td>Ongoing Support</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>UHF, microwave, 802.11n, satellite, cellular</td>
-                        <td>System Acceptance Test</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Rationalize alarms for <br> NMS/EMS system</td>
-                        <td></td>
-                    </tr>
-                <tbody>
+                </tr>
+                <tr>
+                    <td>All-inclusive project cost estimates for AFE <br> (includes 3rd parties, etc.)</td>
+                    <td>Infrastructure Audits</td>
+                    <td>Scope of word documents for 3rd parties <br> & associated technical management</td>
+                    <td>Ongoing Support and Maintenance</td>
+                </tr>
+                <tr>
+                    <td>Maintenance Plans</td>
+                    <td>Security Audits</td>
+                    <td>Configuration</td>
+                    <td>Unique network management system <br> offerings and deployments for optimized <br>
+                        maintenance
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Participate in HAZOP/LOPA</td>
+                    <td>Cutover Plan</td>
+                    <td>Training</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Project Management Services</td>
+                    <td>Factory Acceptance Test</td>
+                    <td>Ongoing Support</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>UHF, microwave, 802.11n, satellite, cellular</td>
+                    <td>System Acceptance Test</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Rationalize alarms for <br> NMS/EMS system</td>
+                    <td></td>
+                </tr>
             </table>
         </div>
-
     </div>
 
     <div class="wrapper wrapper-sm wrapper-dark" id="main">
@@ -247,7 +289,6 @@
     <!--******************************************************
 ******************** The Footer wrapper
 ****************************************************** -->
-
     <div id="footer" class="wrapper wrapper-xs wrapper-default wow fadeIn">
         <div class="flex-container">
             <div id="contact-us" class="overlay-popout" style="padding-top: 74px">
@@ -285,12 +326,6 @@
                                 <textarea class="form-control" id="message" name="message" required=""
                                     class="test-textbox"></textarea>
                             </div>
-
-                            <!-- File attachments -->
-                            <div class="test-textbox" style="text-align: center; border-bottom: 0px; font-size: 1vw;">
-                                <input id="file" type="hidden" role="uploadcare-uploader" name="File_Upload" />
-                            </div>
-
 
                             <!-- Submit Button -->
                             <div class="test-btn-box">
