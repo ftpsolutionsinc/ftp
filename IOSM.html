@@ -104,8 +104,6 @@
 ******************** The Navbar
 ****************************************************** -->
 
-
-    <!-- Navbar Section -->
     <!-- Navbar Section -->
     <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="1" data-offset-bottom="1">
         <div class="container">
@@ -118,16 +116,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html#start"><img src="img/ftp_logo_colour.svg" style="height:58px;"
-                        data-wow-delay="0.75s" class="logo-nav-left"></a>
+                <a href="index.html"><img src="img/ftp_logo_colour.svg" style="height:58px;" data-wow-delay="0.75s"
+                        class="logo-nav-left"></a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="project-services.html">Project Services</a></li>
-                    <li><a href="OSS.html">On-Site Services</a></li>
-                    <li><a href="otsc.html">Remote Operations</a></li>
-                    <li class="active"><a href="#main">Integrated Operations Support Model </a></li>
+                    <li><a href="index.html#software">Software</a></li>
+                    <li><a href="index.html#hardware">Hardware</a></li>
+                    <li class="dropdown  active">
+                        <a href="#2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false" class="active">Professional Services<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="project-services.html">Project Services</a></li>
+                            <li><a href="OSS.html">On-Site Services</a></li>
+                            <li><a href="otsc.html">Remote Operations</a></li>
+                            <li><a href="IOSM.html">Integrated Operations Support Model </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#casestudies">Case Studies</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                             aria-expanded="false">More <span class="caret"></span></a>
@@ -143,7 +150,6 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-
 
     <!--******************************************************
 ******************** The Main area
@@ -308,7 +314,7 @@
 
         <div class="table-wrapper" style="overflow-x:auto;">
             <table>
-                <thead>
+                <thead style="font-size:large;">
                     <tr>
                         <th>1. Network Design <br> / Design Review
                         </th>
